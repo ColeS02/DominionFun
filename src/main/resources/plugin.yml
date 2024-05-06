@@ -1,0 +1,16 @@
+name: DominionFun
+version: '${project.version}'
+main: com.unclecole.dominionfun.DominionFun
+prefix: DominionFun
+authors: [ Cole ]
+commands:
+  switcherball:
+  switcherstick:
+  grappler:
+  ninjastar:
+  timewarp:
+  exoticbone:
+  gadgets:
+  mutatedpearl:
+  patchbeacon:
+  cole:

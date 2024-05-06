@@ -1,0 +1,109 @@
+SwitcherBall:
+  Cooldown: 5
+  Item:
+    Material: SKULL_ITEM
+    Name: "&aSWITHCER BALL"
+    Skull: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGQwN2ZkMDNjMDNjMDViNzQ0Y2ZmN2FjMWE5NWQ4MTYxNzA2MjA2ZjY4YzEyYzRjMjJjOTcwNWY3YzM3ZDA4In19fQ=="
+    Lore:
+      - "&a1"
+      - "2"
+SwitcherStick:
+  Cooldown: 10
+  Item:
+    Material: STICK
+    Name: "&aSWITHCER STICK"
+    Skull: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGQwN2ZkMDNjMDNjMDViNzQ0Y2ZmN2FjMWE5NWQ4MTYxNzA2MjA2ZjY4YzEyYzRjMjJjOTcwNWY3YzM3ZDA4In19fQ=="
+    Lore:
+      - "&1"
+      - "2"
+      - "2 %uses%"
+Grappler:
+  Cooldown: 5
+  Item:
+    Material: FISHING_ROD
+    Name: "&aGRAPPLER"
+    Skull: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGQwN2ZkMDNjMDNjMDViNzQ0Y2ZmN2FjMWE5NWQ4MTYxNzA2MjA2ZjY4YzEyYzRjMjJjOTcwNWY3YzM3ZDA4In19fQ=="
+    Lore:
+      - "&1"
+      - "2"
+      - "2 %uses%"
+NinjaStar:
+  Cooldown: 5
+  Item:
+    Material: NETHER_STAR
+    Name: "&aNinja Star"
+    Skull: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGQwN2ZkMDNjMDNjMDViNzQ0Y2ZmN2FjMWE5NWQ4MTYxNzA2MjA2ZjY4YzEyYzRjMjJjOTcwNWY3YzM3ZDA4In19fQ=="
+    Lore:
+      - "&1"
+      - "2"
+      - "2 %uses%"
+TimeWarp:
+  Cooldown: 5
+  Item:
+    Material: COMPASS
+    Name: "&aTime Warp"
+    Skull: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGQwN2ZkMDNjMDNjMDViNzQ0Y2ZmN2FjMWE5NWQ4MTYxNzA2MjA2ZjY4YzEyYzRjMjJjOTcwNWY3YzM3ZDA4In19fQ=="
+    Lore:
+      - "&1"
+      - "2"
+      - "2 %uses%"
+ExoticBone:
+  Cooldown: 5
+  Item:
+    Material: BONE
+    Name: "&aExotic Bone"
+    Skull: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGQwN2ZkMDNjMDNjMDViNzQ0Y2ZmN2FjMWE5NWQ4MTYxNzA2MjA2ZjY4YzEyYzRjMjJjOTcwNWY3YzM3ZDA4In19fQ=="
+    Lore:
+      - "&1"
+      - "2"
+      - "2 %uses%"
+MutatedPearl:
+  Cooldown: 5
+  Velocity: 2
+  Compare: true
+  Item:
+    Material: ENDER_PEARL
+    Name: "&aMutated Pearl"
+    Skull: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGQwN2ZkMDNjMDNjMDViNzQ0Y2ZmN2FjMWE5NWQ4MTYxNzA2MjA2ZjY4YzEyYzRjMjJjOTcwNWY3YzM3ZDA4In19fQ=="
+    Lore:
+      - "&1"
+      - "2"
+      - "2 %uses%"
+PatchBeacon:
+  Cooldown: 5
+  Item:
+    Material: BEACON
+    Name: "&aPatch Beacon"
+    Skull: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGQwN2ZkMDNjMDNjMDViNzQ0Y2ZmN2FjMWE5NWQ4MTYxNzA2MjA2ZjY4YzEyYzRjMjJjOTcwNWY3YzM3ZDA4In19fQ=="
+    Lore:
+      - "&1"
+      - "2"
+      - "2 %uses%"
+
+Gadgets:
+  GUI:
+    Size: 27
+    Title: "&fGadgets"
+  Items:
+    SwitcherBall:
+      Slot: 0
+      Command: "switcherball give %player% 1"
+      Material: SKULL_ITEM
+      Name: "&aSWITHCER BALL"
+      Skull: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGQwN2ZkMDNjMDNjMDViNzQ0Y2ZmN2FjMWE5NWQ4MTYxNzA2MjA2ZjY4YzEyYzRjMjJjOTcwNWY3YzM3ZDA4In19fQ=="
+      Lore:
+        - "&1"
+        - "2"
+        - "2 %uses%"
+    SwithcerStick:
+      Slot: 1
+      Command: "switcherstick give %player% 1 500"
+      Material: STICK
+      Name: "&aSWITHCER STICK"
+      Skull: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGQwN2ZkMDNjMDNjMDViNzQ0Y2ZmN2FjMWE5NWQ4MTYxNzA2MjA2ZjY4YzEyYzRjMjJjOTcwNWY3YzM3ZDA4In19fQ=="
+      Lore:
+        - "&1"
+        - "2"
+        - "2 %uses%"
+
+
